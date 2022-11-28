@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+    
+}
+body{
+    background-color: #e8eff8;
+    color: #424242;
+}
+.All-sign-in {
+    width: 65%;
+    margin: auto;
+    top: 7rem;
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 6rem 2rem 2rem 0rem;
+    border: #194382 solid 1px;
+    background-color: white;
+    border-radius: 8px;
+}
+.All-sign-in .Logo {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.All-sign-in .imges {
+    position: relative;
+    bottom: -6rem;
+}
+.All-sign-in .sign-in{
+    width: 50%;
+}
+.All-sign-in .sign-in h2{
+    color: #194382;
+    margin: 1.3rem 0 0.6rem 0;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1rem 0;
+    border-radius:10px ;
+    font-weight: 700;
+}
+.All-sign-in .sign-in  .div1 {
+    margin: 0 0 1rem 0;
+    position: relative;
+}
+.All-sign-in .sign-in  .div1 button:nth-of-type(1) {
+    position: absolute;
+    background-color: #f3f3f3;
+    top: 10%;
+    right: 5%;
+}
+.All-sign-in .sign-in  .div1 button i {
+width: 1.4rem;
+}
+.All-sign-in .sign-in  .div1 label{
+    margin: .4rem 0;
+    display: block;
+}
+.All-sign-in .sign-in  .div1 input{
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 0.8rem ;
+}
+.All-sign-in .sign-in button:nth-of-type(1){
+    margin: 1.5rem 0 2rem 0;
+    padding: .7rem .6rem ;
+    background-color: rgb(229, 166, 4);
+    border: none;
+
+}
+.All-sign-in .sign-in .btn2 {
+    font-size: 1.1rem;
+    position: relative;
+    left: 45%;
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+ 
+    .All-sign-in .Logo {
+        top: 2%;
+    }
+    img, svg {
+        width: 7rem;
+    }
+    .All-sign-in {
+        width: 100%;
+        margin: 0;
+        top: 1rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    p.butt {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .All-sign-in .sign-in h2 {
+        position: relative;
+        bottom: 8rem;
+        left: 42%;
+        display: inline-block;
+        margin: 0 0 1.6rem 0;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+    .All-sign-in .sign-in .div1 {
+        margin: 7px 0 1rem 0;
+        padding: 0 1.5rem;
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 6rem;
+        left: 1rem;
+    }
+    .All-sign-in .sign-in .div1 button:nth-of-type(1) {
+        position: absolute;
+        background-color: #f3f3f3;
+        top: 20%;
+        padding: 0;
+        border-radius: 10px;
+        right: 10%;
+    }
+
+    .All-sign-in .imges {
+        position: relative;
+        width: 63%;
+        bottom: 4rem;
+        left: 20%;
+            }
+    .All-sign-in .sign-in {
+        width: 100%;
+    }
+    .All-sign-in .sign-in  button.btn-dark {
+        margin: 0;
+        position: relative;
+        left: 0;
+        padding: 0.3rem 1rem;
+        font-size: .9rem;
+        bottom: 3rem;
+    }
+    .All-sign-in .sign-in .btn2 {
+        font-size: .8rem;
+        position: relative;
+        left: 0;
+        bottom: 3rem;
+    }    
+
+}
+
+
+/* small Screens */
+@media screen and (min-width: 768px) {
+    .All-sign-in .Logo {
+        top: 2%;
+    }
+    img, svg {
+        width: 9rem;
+    }
+    .All-sign-in {
+        width: 70%;
+        margin:auto;
+        top: 2rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .All-sign-in .sign-in h2 {
+        position: relative;
+        bottom: 7rem;
+        left: 45%;
+        display: inline-block;
+        margin: 0 0 1.6rem 0;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+    .All-sign-in .sign-in .div1 {
+        margin: 7px 0 1rem 0;
+        padding: 0 1.5rem;
+        font-size: 1rem;
+        position: relative;
+        bottom: 6rem;
+        left: 1rem;
+    }
+    p.butt{
+        margin-bottom: 0;
+    }
+    .All-sign-in .sign-in .div1 button:nth-of-type(1) {
+        position: absolute;
+        background-color: #f3f3f3;
+        top: 20%;
+        padding: 0;
+        border-radius: 10px;
+        right: 10%;
+    }
+
+    .All-sign-in .imges {
+        position: relative;
+        width: 63%;
+        bottom: 4rem;
+        left: 20%;
+        }
+    .All-sign-in .sign-in {
+        width: 100%;
+    }
+    .All-sign-in .sign-in  button.btn-dark {
+        margin: 0;
+        position: relative;
+        left: 20%;
+        padding: 0.4rem 0.3rem;
+        font-size: .9rem;
+        bottom: 3rem;
+    }
+    .All-sign-in .sign-in .btn2 {
+        font-size: .8rem;
+        position: relative;
+        left: 45%;
+        bottom: 3rem;
+    }  
+}
+
+/* Medium Screen */
+@media screen and (min-width: 992px) {
+    .All-sign-in .Logo {
+        top: 7%;
+        left: -3.5rem;
+    }
+    img, svg {
+        width: 20rem;
+        }
+    .All-sign-in {
+        padding: 6rem 1rem 1rem 0rem;
+            width: 65%;
+            margin: auto;
+            top: 7rem;
+            position: relative;
+            justify-content: space-evenly;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .All-sign-in .sign-in h2 {
+            position: static;
+            margin: 1.3rem 0 0.6rem 1.5rem;
+            font-size: 1.8rem;
+            display: inline-block;
+            padding: 1rem 0;
+        }
+        .All-sign-in .sign-in .div1 {
+            margin: 0 0 1rem 0;
+            position: relative;
+            font-size: 1rem;
+            bottom: 0;
+            left: 0;
+        }
+        .All-sign-in .sign-in .div1 button:nth-of-type(1) {
+            position: absolute;
+            background-color: #f3f3f3;
+            top: 23%;
+            padding: 0;
+            border-radius: 10px;
+            right: 15%;
+        }
+        .All-sign-in .imges {
+            display: inline-block;
+            bottom: -7rem;
+            left: 2rem;
+            }
+            .All-sign-in .sign-in {
+                width: 160%;
+                left: -1rem;
+            }
+            .All-sign-in .sign-in  button.btn-dark {
+                margin: 1.5rem 0 2rem 0;
+                position: relative;
+                left: 1.5rem;
+                padding: 0.5rem 1rem;
+                font-size: 1.2rem;
+                bottom: 0;
+            }
+            .All-sign-in .sign-in .btn2 {
+                font-size: 1rem;
+                font-size: 1.1rem;
+                 left: 2.7rem;
+                bottom: 0;
+            }  
+
+}
+
+
+/* Large Screens */
+@media screen and (min-width: 1024px) {
+
+
+}
+

@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #e8eff8;
+    color: #424242;
+}
+                  /* التقرير */
+.FormAll{
+    direction: rtl;
+}
+.FormAll form {
+    width: 50%;
+    background-color: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-top: solid 1.5rem #194382;
+    border-left: solid 1px rgb(185, 185, 185);
+    border-right: solid 1px rgb(185, 185, 185);
+    border-bottom: solid 1px rgb(185, 185, 185);
+    box-shadow: 0px 1px 3px #d1d0d0;
+    border-radius: 1rem;
+}
+.FormAll form h1:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* *************************************************************************** */
+
+                 /* التدريب */
+.FormAll  form .Div-FormAll input {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 0.6rem ;
+    width: 100%;
+}
+.FormAll form .Div-FormAll label {
+    margin: .5rem 0;
+    display: block;
+}
+.FormAll form .Div-FormAll .All-gender {
+    display: flex;
+    justify-content: space-between;
+}
+.FormAll form .Div-FormAll .All-gender .gender {
+    margin-top: 1rem;
+    display: flex;
+}
+.FormAll form .Div-FormAll .All-gender .gender:last-of-type {
+    position: relative;
+    right: 20%;
+}
+.FormAll form .Div-FormAll .All-gender .gender label{
+margin-left:1rem ;
+display: block;
+}
+.FormAll form .Div-FormAll .All-gender .gender input {
+    width: 30%;
+    padding: 0.5rem 1.8rem;
+    margin: 0 0 0 1rem;
+}
+
+
+
+/* ******************************************************************* */
+
+
+                /* الجامعة + الاختصاص*/
+.FormAll form .Div-FormAll .All-gender2 {
+    justify-content: space-between;
+    display: flex;
+
+}
+.FormAll form .Div-FormAll .All-gender2  input:first-of-type{
+width: 19rem;
+}
+.FormAll form .Div-FormAll .All-gender2  input{
+    width: 16%;
+    padding: 0.5rem 1.8rem;
+}
+.FormAll form .Div-FormAll .All-gender2  label {
+    display: inline;
+}
+
+
+/* ********************************************************************* */
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .FormAll form {
+        width: 90%;
+    }
+    .FormAll form h1:first-of-type {
+        font-size: 1rem;
+    }
+    .FormAll form .Div-FormAll label {
+        font-size: .8rem;
+    }
+    .FormAll form .Div-FormAll input {
+        padding: 0.3rem;
+        font-size: .8rem;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender {
+        display: block;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input {
+        width: 51% ;
+        text-align: center;
+        padding: 0.5rem 0.9rem ;
+    }
+    .FormAll form .Div-FormAll .All-gender2 {
+        display: block;
+    }
+    
+    .FormAll form .Div-FormAll .All-gender2 input:first-of-type {
+        width: 100%;
+        margin-bottom: 0.6rem;
+    }
+    .FormAll form .Div-FormAll .All-gender2 input {
+        width: 100%;
+        padding: 0.3rem 0.4rem;
+    }
+
+}
+
+
+/* small Screens */
+@media screen and (min-width: 768px) {
+    .FormAll form .Div-FormAll label {
+        font-size: .9rem;
+    }
+    .FormAll form .Div-FormAll input {
+        font-size: .8rem;
+    }
+    .FormAll form .Div-FormAll .All-gender {
+        display: block;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender:last-of-type {
+        position: relative;
+        right: 0;
+    }
+    .FormAll form .Div-FormAll .All-gender2 {
+        display: block;
+    }
+    .FormAll form .Div-FormAll .All-gender2 input:first-of-type {
+        width: 100%;
+    }
+
+    .FormAll form .Div-FormAll .All-gender2 label {
+        display: block;
+        margin-top: 1rem;
+    }
+    .FormAll form .Div-FormAll .All-gender2 input {
+        width: 100%;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 992px) {
+    .FormAll form .Div-FormAll input {
+        font-size: 1rem;
+    }
+    .FormAll form .Div-FormAll label {
+        margin: .5rem 0;
+    }
+    .FormAll  form .Div-FormAll input {
+        font-size: 1rem;
+    }
+
+    .FormAll form .Div-FormAll .All-gender .gender:last-of-type {
+        position: relative;
+        right: 6%;
+    }
+
+    .Div-FormAll .All-gender .gender input {
+        width: 30%;
+        padding: 0.5rem 1rem;
+        margin: 0 0 0 0;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input {
+        padding: 0.5rem 1rem;
+        margin: 0 0 0 0;
+    }
+
+    .FormAll form .Div-FormAll .All-gender2 input:first-of-type {
+        width: 12rem;
+    }
+
+    .FormAll form .Div-FormAll .All-gender {
+        display: flex;
+        justify-content: space-between;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender {
+        margin-top: 1rem;
+        display: flex;
+    }
+    .FormAll form .Div-FormAll .All-gender2 {
+        display: flex;
+    }
+
+    .FormAll form .Div-FormAll .All-gender2 input {
+        width: 15%;
+        padding: 0.1rem 1rem;
+    }
+
+}
+
+
+/* Large Screens */
+@media screen and (min-width: 1024px) {
+    .FormAll form .Div-FormAll .All-gender2 input:first-of-type {
+        width: 17rem;
+    }
+    .FormAll form .Div-FormAll .All-gender2 input {
+        width: 15%;
+        padding: 0.1rem 1.8rem;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input {
+        padding: 0.5rem 1.8rem;
+        margin-right: 0;
+    }
+    .FormAll form h1:first-of-type {
+        font-size: 1.5rem;
+    }
+    .FormAll form .Div-FormAll label {
+        font-size: 1.2rem;
+    }
+    .Div-FormAll .All-gender .gender label {
+        margin-left: 0;
+    }
+    .FormAll form .Div-FormAll input {
+        font-size: 1.1rem;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input:first-of-type {
+        text-align: center;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input:last-of-type {
+        margin-right: 0rem;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender:last-of-type {
+        position: relative;
+        right: 5%;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender input:first-of-type {
+        margin-right: 3rem;
+    }
+    .FormAll form .Div-FormAll .All-gender .gender:first-of-type {
+        justify-content: start;
+        display: flex;
+    }
+
+}
+
+
